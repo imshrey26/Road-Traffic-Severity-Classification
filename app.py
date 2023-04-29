@@ -5,7 +5,7 @@ import joblib
 from sklearn.tree import ExtraTreeRegressor
 from prediction import get_prediction, oridnal_encoder
 
-model = joblib.load(r'model/rf_model.joblib')
+model = joblib.load(r'model/random_forest_final.joblib')
 
 st.set_page_config(page_title='Accident Severity Prediction App',layout='wide')
 
